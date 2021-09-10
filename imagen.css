@@ -1,0 +1,323 @@
+body{
+    background: url(img/2581470.jpg);
+    background-size:100%;
+}
+
+
+
+/*fondo de la pagina*/
+img{
+position: absolute;
+margin-left: 140px;
+margin-top: 160px;
+box-shadow: 20px 20px 1px white;
+
+}
+/*tipografia de letra externa*/
+@font-face{
+    font-family: fuente_1;
+    font-style: normal;
+    font-weight: normal;
+    src:url(Diana_Crush.ttf);
+    
+}
+/*titulo*/
+.texto1{
+position: absolute;
+color: blanchedalmond;
+margin-top: 240px; 
+margin-left: 420px;
+font-size: 160px;   
+font-family:fuente_1;
+text-shadow: 0.001em 0.001em 0.4em black;
+letter-spacing: 0.000017em;
+
+}
+/*subtitulo*/
+.texto2{
+    position: absolute;
+    color: blanchedalmond;
+    margin-top: 440px; 
+    margin-left: 300px;
+    font-size: 45px;   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.08em;
+    
+    }
+/*boton home*/
+botton{
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:white;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:rgba(151, 151, 194, 0.604);
+border-color: #F69DA1;
+border-width: 3px;
+border-style: solid;
+box-shadow: 0.001em 0.001em 0.4em black;
+margin-top: 40px;
+
+}
+botton:hover{
+    color: #fffbfb;
+    background-color: #d18f85;
+    text-decoration: none;
+  }
+/*boton usuarios*/
+.us{
+    background-image:url(img/usuario.png);
+    background-size: 100%;
+    border-style: groove;
+    background-repeat:no-repeat;
+    height:70px;
+    width:70px;
+    margin-left: 1150px;
+    margin-top: 40px;
+    border-radius: 50%;
+    background-position:center;
+    box-shadow: 0.001em 0.001em 0.4em black;
+
+  }
+/*menu*/
+  *{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+header{
+	width: 100%;
+    margin-left: 360px;
+    margin-top: -87px;
+}
+
+.navegacion{
+	width: 190px;
+	margin: 30px auto;
+	background:rgba(236, 174, 182, 0.713);
+    box-shadow: 0.001em 0.001em 0.1em black;
+
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+    
+}
+
+.menu li a:hover{
+	color: rgb(226, 149, 155);
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+  
+/* tema_1.html___________________________________________*/
+
+.tema1{
+  background: url(img/tema1.jpg);
+    background-size:100%;
+}
+
+.home1,.home2,.home3,.home4,.home5,.contactos{
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 20px;
+  color:rgb(255, 255, 255);
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:rgba(151, 151, 194, 0.604);
+  border-color: #f69dbf;
+  border-width: 3px;
+  border-style: solid;
+  box-shadow: 0.001em 0.001em 0.4em black;
+  margin-top: 40px;
+  }
+  .home1:hover,.home2:hover,.home3:hover,.home4:hover,.home5:hover,.contactos:hover{
+      color: #fffbfb;
+      background-color: #d18f85b4;
+      text-decoration: none;
+    }
+
+
+/* tema_2.html___________________________________________*/
+
+.tema2{
+  background: url(img/tema2.jpg);
+    background-size:100%;
+}
+
+
+/* tema_3.html___________________________________________*/
+
+.tema3{
+  background: url(img/tema3.jpg);
+    background-size:100%;
+}
+
+
+/* tema_4.html___________________________________________*/
+
+.tema4{
+  background: url(img/tema4.jpg);
+    background-size:100%;
+}
+
+
+/* contacto.html___________________________________________*/
+
+.contacto{
+  background: url(img/contacto.jpg);
+    background-size:100%;
+}
+
+
+/* usuario.html___________________________________________*/
+
+.usuario{
+  background: url(img/2581470.jpg);
+    background-size:100%;
+}
+
+.box{
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 285px;
+  border-radius: 9px;
+}
+.iconoUs{
+  position: absolute;
+  box-shadow: 0.001em 0.001em 0.4em black;
+  margin-top: 90px;
+  margin-left: 600px;
+  width: 150px;
+  height: 150px;
+  border-radius: 35%;
+  z-index: 1;
+}
+
+.aceptar{
+  position: absolute;
+  box-shadow: 0.001em 0.001em 0.4em black;
+  margin-top: 350px;
+  margin-left: 570px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+  z-index: 1;
+}
+
+.eliminar{
+  position: absolute;
+  box-shadow: 0.001em 0.001em 0.4em black;
+  margin-top: 350px;
+  margin-left: 620px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+  z-index: 1;
+}
+.guardar{
+  position: absolute;
+  box-shadow: 0.001em 0.001em 0.4em black;
+  margin-top: 350px;
+  margin-left: 670px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+  z-index: 1;
+}
+.agregar{
+  position: absolute;
+  box-shadow: 0.001em 0.001em 0.4em black;
+  margin-top: 350px;
+  margin-left: 720px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+  z-index: 1;
+}
+.aceptar:hover,
+.eliminar:hover,
+.guardar:hover,
+.agregar:hover{
+	box-shadow: 0.7px 0.9px 5px black inset;
+  transition: all ease 0.5s;
+	cursor: pointer;
+	transform: rotate(45deg);
+
+}
+
+input{
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 505px;
+  width: 300px;
+  height: 30px;
+  color: rgb(17, 17, 17);
+  background:rgb(224, 219, 219) ;
+  border-radius: 5%;
+  box-shadow: 0.7px 0.9px 5px black inset;
+  border-style: none;
+  text-align: center;
+}
+.input2{
+margin-top: 310px;
+}
+label{
+  background:rgb(224, 219, 219) ;
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  border-radius: 5%;
+  box-shadow: 0.7px 0.9px 5px black inset;
+  border-style: none;
+  text-align: center;
+  margin-top: 425px;
+  margin-left: 505px;
+}
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>LogIn</title>
+    <a class="home5" href="index.html">HOME</a>
+</head>
+<body>
+<div class="login-box" >
+<form>
+    <label for="email"> Email</label>
+    <br> 
+    <input type= "email" id="email" placeholder="Ingrese su correo electrónico" name="email"  minlength="5" maxlength="20" required>
+    <br> <br> 
+    
+    <label for="nombre"> Nombre</label>
+    <br> 
+    <input type= "text" id="nombre" placeholder="Ingrese su nombre" name="nombre"  minlength="2" maxlength="15" required>
+    <br> <br> 
+    <label for= "apellido"> Apellido</label>
+    <br> 
+    <input type= "text" id="apellido"placeholder="Ingrese su apellido" name="apellido"  minlength="2" maxlength="15" required>
+    <br> <br> 
+    <label for="edad"> Edad</label>
+    <br> 
+    <input type= "number" id="edad" name= "edad" min="8" max="100" >
+    <br> <br> 
+    <button onclick= "crearUsuario(email.value, nombre.value, apellido.value, edad.value)">Crear</button>
+    <br> 
+    <button onclick= "actualizarUsuario(email.value, nombre.value, apellido.value, edad.value)">Actualizar</button>
+    <br>
+</form>
+    </div>
+    <div id= "listaUsuarios"></div>
+    <table >
+        <h2>
+            Lista de usuarios
+        </h2>
+        <tr>
+            <th>Email</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Opciones</th>
+        </tr>
+        <tbody id="listaUsuariosTabla"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+    <script src="script_html.js"></script>
+    
+</body>
+</html>
